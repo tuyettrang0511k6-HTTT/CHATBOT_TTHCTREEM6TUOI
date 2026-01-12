@@ -1,3 +1,4 @@
+
 import streamlit as st
 import os
 import json
@@ -29,6 +30,7 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 # ====== CÁCH GỌI KHI ĐẶT CÂU HỎI ======
 # response = model.generate_content("Câu hỏi của bạn")
 # st.write(response.text)
+
 
 
 
