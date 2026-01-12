@@ -15,7 +15,7 @@ if "GOOGLE_API_KEY" not in st.secrets:
     st.stop()
 
 # ====== KHỞI TẠO GEMINI CLIENT ======
-import google.generativeai as genai
+from google import genai
 
 # ====== KIỂM TRA API KEY ======
 if "GOOGLE_API_KEY" not in st.secrets:
