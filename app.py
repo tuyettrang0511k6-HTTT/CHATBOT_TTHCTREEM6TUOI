@@ -32,9 +32,7 @@ if "GOOGLE_API_KEY" not in st.secrets:
     st.error("❌ Chưa cấu hình GOOGLE_API_KEY trong Streamlit Secrets")
     st.stop()
 
-# ====== CẤU HÌNH & KHỞI TẠO GEMINI ======
-genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
-model = genai.GenerativeModel('gemini-1.5-flash')
+
 
 # ====== CÁCH GỌI KHI ĐẶT CÂU HỎI ======
 # response = model.generate_content("Câu hỏi của bạn")
