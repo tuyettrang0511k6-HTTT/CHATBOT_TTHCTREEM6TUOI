@@ -17,6 +17,16 @@ if "GOOGLE_API_KEY" not in st.secrets:
 # ====== KHỞI TẠO GEMINI CLIENT ======
 from google import genai
 
+client = genai.Client(api_key=API_KEY)
+
+response = client.models.generate_content(
+    model="gemini-1.5-flash",
+    contents="Xin chào"
+)
+
+print(response.text)
+
+
 # ====== KIỂM TRA API KEY ======
 if "GOOGLE_API_KEY" not in st.secrets:
     st.error("❌ Chưa cấu hình GOOGLE_API_KEY trong Streamlit Secrets")
