@@ -6,8 +6,9 @@ requests
 beautifulsoup4
 langchain-text-splitters
 PyMuPDF
-streamlit
+google.generativeai as genai
 google-genai>=0.3.0
+
 
 
 
