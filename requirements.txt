@@ -1,4 +1,5 @@
 streamlit
+chromadb
 sentence-transformers
 html2text
 requests
@@ -7,6 +8,7 @@ langchain-text-splitters
 PyMuPDF
 streamlit
 google-genai>=0.3.0
+
 
 
 
