@@ -1,10 +1,13 @@
 streamlit
-chromadb
-google-generativeai
 sentence-transformers
 html2text
 requests
 beautifulsoup4
 langchain-text-splitters
 PyMuPDF
+streamlit
+google-genai>=0.3.0
+
+
+
 
